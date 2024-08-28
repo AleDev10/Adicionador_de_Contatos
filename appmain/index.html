@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="pt-pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Lista de contatos</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+  </head>
+  <body id="corpo">
+    <section class="flex-nowrap" id="main" border-style: none">
+      <div class="d-flex flex-column align-items-center" id="bloco">
+        <h1>Bem-Vindo</h1>
+        <input type="text" id="b2" placeholder="Nome" autofocus />
+        <input type="number" id="b1" placeholder="Numero" />
+        <div>
+          <button class="btn btn-primary" id="b3" type="button" onclick="enviar()">Enviar</button>
+          <button class="btn btn-primary" id="b4" type="button" onclick="reiniciar()">Reiniciar</button>
+        </div>
+        <p id="Ver" onclick="detalhes()">Ver detalhes</p>
+        <div
+          id="testos"
+          style="width: 384.8438px; margin: 10px; background: #6efc74"
+        >
+          <div id="paragrafos">
+            <p id="txt"><b>Lista de contatos</b></p>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/logic.js"></script>
+</html>

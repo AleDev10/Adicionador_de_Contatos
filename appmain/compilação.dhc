@@ -1,0 +1,25 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<HtmlCompiler>
+  <App>
+    <ID>{498CA43B-5332-4290-A276-010A57AA1DEE}</ID>
+    <Name>Adicionador de contactos</Name>
+    <IndexHtml>..\index.html</IndexHtml>
+    <CompanyName>Alexandre junqueiro</CompanyName>
+    <FileDescription>este programa adiciona contactos a uma lista</FileDescription>
+    <FileVersion>1.0.0</FileVersion>
+    <Width>900</Width>
+    <Height>700</Height>
+    <MinWidth>790</MinWidth>
+    <Theme>Windows10</Theme>
+    <IcoPath>..\assets\icones\Capturar2.ico</IcoPath>
+    <Password>230523</Password>
+    <OutputWin32>0</OutputWin32>
+    <Generator>
+      <Name>DecSoft HTML Compiler</Name>
+      <Website>https://www.decsoftutils.com/</Website>
+      <Orders>https://www.decsoftutils.com/store/</Orders>
+      <EMail>info@decsoftutils.com</EMail>
+      <Copyright>©2024 DecSoft HTML Compiler. All rights reserved.</Copyright>
+    </Generator>
+  </App>
+</HtmlCompiler>
